@@ -58,6 +58,7 @@ public class LabOneAssignment {
                 default:
                     System.out.println("Invalid choice. Please try again.");
             }
+            scanner.close();
         }
     }
 
@@ -98,6 +99,7 @@ public class LabOneAssignment {
         System.out.println("Enter your message for the " + chatType + " Chat:");
         String message = scanner.nextLine();
         chat.add(message);
+        scanner.close();
     }
 
     private void viewFriendsList() {
@@ -113,6 +115,7 @@ public class LabOneAssignment {
        String friendName = scanner.nextLine();
         friendsList.add(friendName);
         System.out.println(friendName + " has been added to your friends list.");
+        scanner.close();
     }
 
     private void saveChatLogs() {
