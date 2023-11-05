@@ -55,6 +55,7 @@ public class LabOneAssignment {
                 System.out.println("Invalid input. Please enter a number.");
                 scanner.next(); // clear invalid input
             }
+            scanner.close();
         }
     }
 
@@ -106,6 +107,7 @@ public class LabOneAssignment {
         System.out.println("Enter your message for the " + chatType + " Chat:");
         String message = scanner.nextLine();
         chat.add(message);
+        scanner.close();
     }
 
 
@@ -122,6 +124,7 @@ public class LabOneAssignment {
         String friendName = scanner.nextLine();
         friendsList.add(friendName);
         System.out.println(friendName + " has been added to your friends list.");
+        scanner.close();
     }
 
     private void saveChatLogs() {
