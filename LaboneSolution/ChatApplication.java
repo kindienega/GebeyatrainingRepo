@@ -25,7 +25,7 @@ public class ChatApplication {
         publicChatMessages = new ArrayList<>();
         friendsList = new HashMap<>();
     }
-
+// adding throws able fileHandling exceptions 
     public void readPrivateChatFile() throws FileHandlingException {
         try (Scanner scanner = new Scanner(new File(PRIVATE_CHAT_FILE))) {
             while (scanner.hasNextLine()) {
