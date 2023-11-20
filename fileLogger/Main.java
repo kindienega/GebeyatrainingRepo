@@ -3,7 +3,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-
+/*
+/* this java classes has optons for creating a fille  
+/* capable for white the created file 
+/* has also functionality of reading from file 
+/* Author Kindie Nega
+*/
 public class Main {
     public static void main(String[] args) {
             Scanner inputScanner = new Scanner(System.in);
