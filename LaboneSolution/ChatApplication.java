@@ -3,12 +3,13 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
-/*
-/* this java classes can read and write to private / public chat and Friend’s List
-/* private caht write on Donut[AFK].log file 
-/* public caht write on Eukarte.log file and 
-/* friend list on friend.list file 
-/* Author Kindie Nega
+/**
+* This Java class can read and write to private/public chat and Friend’s List
+* private chat write on Donut[AFK].log file 
+* public chat write on Eukarte.log file and 
+* friend list on friend. list file 
+* @Author Kindie Nega
+* @Date 2023/11/30
 */
 
 public class ChatApplication {
